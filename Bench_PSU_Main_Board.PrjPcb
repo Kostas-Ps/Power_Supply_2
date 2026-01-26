@@ -188,7 +188,7 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=Therm_Comparators.SchDoc
+DocumentPath=Schematics\Therm_Comparators.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -205,7 +205,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EHJZODXI
 
 [Document10]
-DocumentPath=Fan_Timer.SchDoc
+DocumentPath=Schematics\Fan_Timer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -222,7 +222,7 @@ GenerateClassCluster=0
 DocumentUniqueId=PCGGQTJO
 
 [Document11]
-DocumentPath=Relay_Latches.SchDoc
+DocumentPath=Schematics\Relay_Latches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -239,7 +239,7 @@ GenerateClassCluster=0
 DocumentUniqueId=EOGHONQD
 
 [Document12]
-DocumentPath=Relays.SchDoc
+DocumentPath=Schematics\Relays.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -256,13 +256,13 @@ GenerateClassCluster=0
 DocumentUniqueId=NMIMHWLJ
 
 [Document13]
-DocumentPath=Power.SchDoc
+DocumentPath=Schematics\Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
 AnnotateSuffix=
 AnnotateScope=All
-AnnotateOrder=-1
+AnnotateOrder=5
 DoLibraryUpdate=1
 DoDatabaseUpdate=1
 ClassGenCCAutoEnabled=1
