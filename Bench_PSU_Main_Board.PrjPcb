@@ -188,23 +188,6 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Document9]
-DocumentPath=Schematics\Therm_Comparators.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=1
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=EHJZODXI
-
-[Document10]
 DocumentPath=Schematics\Fan_Timer.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -221,7 +204,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=PCGGQTJO
 
-[Document11]
+[Document10]
 DocumentPath=Schematics\Relay_Latches.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -238,7 +221,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=EOGHONQD
 
-[Document12]
+[Document11]
 DocumentPath=Schematics\Relays.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -255,7 +238,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=NMIMHWLJ
 
-[Document13]
+[Document12]
 DocumentPath=Schematics\Power.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -272,7 +255,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=BWHVUWXJ
 
-[Document14]
+[Document13]
 DocumentPath=Schematics\Main_Board_Schematic.SchDoc
 AnnotationEnabled=1
 AnnotateStartValue=1
