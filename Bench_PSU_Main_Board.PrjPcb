@@ -137,23 +137,6 @@ GenerateClassCluster=0
 DocumentUniqueId=BWHVUWXJ
 
 [Document6]
-DocumentPath=Schematics\Main_Board_Schematic.SchDoc
-AnnotationEnabled=1
-AnnotateStartValue=1
-AnnotationIndexControlEnabled=0
-AnnotateSuffix=
-AnnotateScope=All
-AnnotateOrder=6
-DoLibraryUpdate=1
-DoDatabaseUpdate=1
-ClassGenCCAutoEnabled=1
-ClassGenCCAutoRoomEnabled=0
-ClassGenNCAutoScope=None
-DItemRevisionGUID=
-GenerateClassCluster=0
-DocumentUniqueId=YOPZZVSF
-
-[Document7]
 DocumentPath=Bench_PSU_Main_Board.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -170,7 +153,7 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
-[Document8]
+[Document7]
 DocumentPath=Bench_PSU_Main_Board.pdf
 AnnotationEnabled=1
 AnnotateStartValue=1
@@ -186,6 +169,74 @@ ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
+
+[Document8]
+DocumentPath=Voltage_Control.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=7
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=UXNSDGBZ
+
+[Document9]
+DocumentPath=Power_Supply.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=8
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=WZEBQXBZ
+
+[Document10]
+DocumentPath=Current_Limit.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=9
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=VGMQJKEW
+
+[Document11]
+DocumentPath=Schematics\Main_Board_Schematic.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=6
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=YOPZZVSF
 
 [GeneratedDocument1]
 DocumentPath=Project Outputs for Bench_PSU_Main_Board\Design Rule Check - PCB1.html
@@ -1219,10 +1270,16 @@ NetClassManualEnabled=1
 NetClassSeparateForBusSections=0
 
 [LibraryUpdateOptions]
-SelectedOnly=0
+SelectedOnly=1
 UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
+ComponentLibIdentifierKind0=Vault Name
+ComponentLibraryIdentifier0=Altium Content Vault
+ComponentDesignItemID0=CMP-00278-84328822-1
+ComponentSymbolReference0=f9bc5961048aad4b77048d0b81a97d3
+ComponentUpdate0=1
+ComponentIsDeviceSheet0=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1236,6 +1293,89 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
+ParameterName0=Average Rectified Current
+ParameterUpdate0=1
+ParameterName1=Case/Package
+ParameterUpdate1=1
+ParameterName2=Comment
+ParameterUpdate2=1
+ParameterName3=Component Kind
+ParameterUpdate3=1
+ParameterName4=Contact Plating
+ParameterUpdate4=1
+ParameterName5=Current Rating
+ParameterUpdate5=1
+ParameterName6=Description
+ParameterUpdate6=1
+ParameterName7=Element Configuration
+ParameterUpdate7=1
+ParameterName8=Forward Current
+ParameterUpdate8=1
+ParameterName9=Forward Voltage
+ParameterUpdate9=1
+ParameterName10=Height
+ParameterUpdate10=1
+ParameterName11=Lead Free
+ParameterUpdate11=1
+ParameterName12=Length
+ParameterUpdate12=1
+ParameterName13=Library Reference
+ParameterUpdate13=1
+ParameterName14=Lifecycle Status
+ParameterUpdate14=1
+ParameterName15=Manufacturer Lifecycle Status
+ParameterUpdate15=1
+ParameterName16=Max Forward Surge Current (Ifsm)
+ParameterUpdate16=1
+ParameterName17=Max Junction Temperature (Tj)
+ParameterUpdate17=1
+ParameterName18=Max Operating Temperature
+ParameterUpdate18=1
+ParameterName19=Max Repetitive Reverse Voltage (Vrrm)
+ParameterUpdate19=1
+ParameterName20=Max Reverse Leakage Current
+ParameterUpdate20=1
+ParameterName21=Max Surge Current
+ParameterUpdate21=1
+ParameterName22=Min Operating Temperature
+ParameterUpdate22=1
+ParameterName23=Mount
+ParameterUpdate23=1
+ParameterName24=NexarPartId
+ParameterUpdate24=1
+ParameterName25=Number of Elements
+ParameterUpdate25=1
+ParameterName26=Number of Pins
+ParameterUpdate26=1
+ParameterName27=Output Current
+ParameterUpdate27=1
+ParameterName28=Peak Non-Repetitive Surge Current
+ParameterUpdate28=1
+ParameterName29=Peak Reverse Current
+ParameterUpdate29=1
+ParameterName30=Power Dissipation
+ParameterUpdate30=1
+ParameterName31=Radiation Hardening
+ParameterUpdate31=1
+ParameterName32=REACH SVHC
+ParameterUpdate32=1
+ParameterName33=Reverse Voltage
+ParameterUpdate33=1
+ParameterName34=RoHS
+ParameterUpdate34=1
+ParameterName35=Schedule B
+ParameterUpdate35=1
+ParameterName36=Voltage Rating (DC)
+ParameterUpdate36=1
+ParameterName37=Weight
+ParameterUpdate37=1
+ParameterName38=Width
+ParameterUpdate38=1
+ModelTypeGroup0=PCBLIB
+ModelTypeUpdate0=1
+ModelType0=PCBLIB
+ModelName0=FP-127EL-MFG
+ModelUpdate0=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
